@@ -18,4 +18,6 @@ Run the server
 
     rails s
 
+Query 
 
+    curl http://my-server/postal_codes/90210
