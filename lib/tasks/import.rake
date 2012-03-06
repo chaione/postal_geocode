@@ -1,4 +1,5 @@
 require 'csv'
+require 'open-uri'
 namespace :import do
   task :codes => :environment do
     raise ArgumentError, "please provide a URL env variable with the location to a CSV file of postal codes" unless ENV["URL"]
